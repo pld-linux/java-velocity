@@ -1,0 +1,10 @@
+--- velocity-1.6.3/build/build.xml~	2009-12-08 00:41:21.000000000 +0100
++++ velocity-1.6.3/build/build.xml	2010-05-06 14:59:22.000000000 +0200
+@@ -139,7 +139,6 @@
+   <!-- sets up the build environment (classpath and libs)                  -->
+   <!-- =================================================================== -->
+   <target name="build-prepare">
+-    <ant antfile="${velocity.build.dir}/download.xml" target="build-download" />
+ 
+     <!-- Build classpath -->
+     <path id="velocity.build.classpath">
