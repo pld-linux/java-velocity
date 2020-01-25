@@ -1,6 +1,5 @@
 #
 # Conditional build:
-%include	/usr/lib/rpm/macros.java
 
 %define		srcname		velocity
 Summary:	Java templating engine
