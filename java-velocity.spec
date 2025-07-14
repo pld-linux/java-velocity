@@ -107,7 +107,7 @@ Kod źródłowy %{srcname}.
 %prep
 %setup -q -n %{srcname}-%{version}
 
-%patch0 -p1
+%patch -P0 -p1
 
 mkdir -p bin/lib
 
